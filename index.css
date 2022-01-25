@@ -1,0 +1,245 @@
+/* Mobile version */
+@media screen and (max-width:600px){
+body {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+/* ALL BUTTONS */
+button {
+    text-transform:uppercase;
+}
+
+/* HEADER */
+.header {
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.header__logo {
+    margin-top: 10vw;
+    margin-left:5vw;
+    width: 150px;
+    height: 100px;    
+    background-image: url(Wireframe-04/images/logo.png);        
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.header__hamburger {
+    font-size: 35px;
+    width: fit-content;
+    margin-top: 10vw;
+    margin-right:10vw;    
+}
+
+/* SECTION 1  */
+.section1 {
+   
+    height: 100%;    
+   background-color:#FBFBFB;
+   
+
+}
+/* section 1 top */
+
+ .section1__top {
+   height: 100px;
+   display:flex;
+   justify-content: space-between;
+   
+}
+
+.section1__top__imgleft{
+    background-image:url(Wireframe-04/images/banner/shape/shape-1.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    background-size: cover;
+    width: 50px;
+    background-position: bottom;
+}
+.section1__top__imgcenter{
+    background-image:url(Wireframe-04/images/banner/shape/shape-3.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 123px;
+    background-size: cover;
+    background-position: bottom;
+    
+  
+}
+.section1__top__imgright{
+    background-image:url(Wireframe-04/images/banner/shape/shape-2.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-right:13vw;
+    margin-top:3vh;
+}
+
+/* section1 mid */
+
+.section1__mid {
+    position:relative;
+    height:300px;
+}
+
+.section1__mid__text {
+    margin-left: 7vw;
+    margin-top:15px;
+    position:absolute; 
+
+   
+ }
+
+
+.section1__mid__imgbox {
+    position:absolute;
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    
+}
+
+.section1__mid__imgleft{
+    background-image:url(Wireframe-04/images/banner/shape/shape-4.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-left:17vw;
+    margin-bottom:100px;
+}
+.section1__mid__imgright{
+    background-image:url(Wireframe-04/images/banner/shape/shape-1.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-right:5vw;
+    margin-bottom:100px;
+}
+
+        .section1__mid__text h1 {
+            text-transform: uppercase;
+            font-size:25pt;
+            font-weight: 600;
+            color:#31343A;
+        }
+
+        .section1__mid__text h3 {
+            text-transform: uppercase;
+            color:#744ef9;
+            font-size: 18pt;
+            font-weight: 600;
+            
+        }
+           .section1__mid__text div {
+            color:#8a90a1;            }    
+
+/* section bottom */
+
+.section1__bottom {
+    height: 150px;
+}
+
+
+.section1__bottom__btn button {
+    background-color:#744ef9;
+    color:white;
+    margin-left: 7vw;
+    padding: 15px 30px;
+    border-radius: 40px;
+    margin-bottom:200px;
+  
+    
+}
+
+.section1__bottom__socials {
+    margin-left: 7vw;
+    font-size: 20pt;
+    color:grey;
+}
+
+/* SECTION 2 */
+.grey, .section2__intro p, .section2__text p, .section2__infos p  {
+    color:grey;
+}
+
+.section2 h4 {
+    font-weight: 500;
+}
+
+/* Section2 intro */
+
+.section2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top:30px;
+    padding-bottom:35px;
+}    
+
+.section2__intro   {
+    text-align: center;
+}
+
+.section2__infos {
+    line-height: 25pt;
+}
+
+.left {
+    text-align: left;
+
+}
+.right {
+    text-align: right;
+}
+
+
+
+.range-container {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  
+  .skills {
+    text-align: right;    
+    color: white;
+    height:4px;
+    border-radius: 20px;
+    
+  }
+
+  .section2__bars p {
+      color:black;
+      
+  }
+.p-right {
+    text-align:right;
+    
+}
+
+  
+  .html {width: 80%; background-color: #744ef9;} 
+  .css {width: 60%; background-color: #744ef9;} 
+  .ps {width: 50%; background-color: #744ef9;}
+  .sketch {width: 90%; background-color: #744ef9;} 
+
+
+/* SECTION 3 */
+
+/* SECTION 4 */
+
+.section4 {
+    background-image: url();
+}
+
+}
+/* Desktop version */
