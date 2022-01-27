@@ -180,10 +180,11 @@ button {
 /* Section2 intro */
 
 .section2 {
-    margin-left: 20px;
+    /* margin-left: 20px;
     margin-right: 20px;
     padding-top:30px;
-    padding-bottom:35px;
+    padding-bottom:35px; */
+    margin: 30px 20px 35px 20px;
 }    
 
 .section2__intro   {
@@ -226,6 +227,7 @@ button {
     
 }
 
+
   
   .html {width: 80%; background-color: #744ef9;} 
   .css {width: 60%; background-color: #744ef9;} 
@@ -235,11 +237,222 @@ button {
 
 /* SECTION 3 */
 
+.section3 {
+    background-color:#FBFBFB;
+    padding: 30px 20px 35px 20px;
+    text-align: center;
+
+}
+
+.section3__cards h2 {
+    font-weight: 600;
+}
+
+.section3__cards {
+}
+
+.section3__cards__card1 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card2 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card3 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card4 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card5 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card6 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:20px;
+    margin-top:30px;
+}
+
+
+
+.icon {
+ font-size: 50px;
+ color:#744ef9; 
+    
+}
+
 /* SECTION 4 */
 
 .section4 {
-    background-image: url();
+    background-image: url(Wireframe-04/images/mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:fit-content;
+
+    text-align: center;
+    padding:55px 25px 55px 25px ;
+    
 }
 
+.section4 h1 {
+    font-size: 25pt;
+    color:#744ef9;
+    
 }
+
+.section4 button {
+    border-radius: 30px;
+    border:none;    
+    margin-top:10px;
+    font-weight: 500;
+}
+#CV {
+    background-color: white;
+    color:#744ef9 ;
+    padding:15px 20px;
+}
+
+#hire {
+    background-color: #744ef9;
+    color:white;
+    padding:15px 42px;
+}
+
+/* SECTION5 */
+
+.section5 {
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 55px;
+
+}
+.section5 p {
+    color: grey;
+   
+}
+
+.section5__pics {
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.section5__pics__pic1 {
+    background-image: url(Wireframe-04/images/pic1.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.section5__pics__pic2 {
+    background-image: url(Wireframe-04/images/pic2.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.section5__pics__pic3 {
+    background-image: url(Wireframe-04/images/pic3.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.section5__pics__pic4 {
+    background-image: url(Wireframe-04/images/pic4.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.section5__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom:80px
+}
+
+.btn_purple{    
+    border-radius: 30px;
+    border:none;    background-color: #744ef9;
+    color:white;
+    padding:15px 42px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 15px 0px#744ef9 ;  
+    
+    
+}
+
+/* SECTION6 */
+
+.section6 {
+    background-color: #FBFBFB;
+    margin: 70px 20px 70px 20px;
+    padding-top:40px;
+    text-align: center;
+}
+
+.section6 p {
+    color: grey;
+}
+
+.section6__pricecontainer__title {
+    background-color: #744ef9;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    
+}
+
+.section6__pricecontainer__box2 {
+    border: solid #ddd 1px;
+    padding:10px;
+}
+
+.price {
+    color:#744ef9;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+} 
 /* Desktop version */
+
+@media screen and (min-width:600px){
+    body {
+       
+    };
+
+
+
+
+
+
+} /* closing tag desktop media q */
