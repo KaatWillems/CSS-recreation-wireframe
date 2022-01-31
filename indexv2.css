@@ -1,0 +1,672 @@
+/* Mobile version */
+@media screen and (max-width:600px){
+body {
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+    
+   
+}
+/* ALL BUTTONS */
+button {
+    text-transform:uppercase;
+}
+
+.section1d {display:none;}
+
+/* HEADER */
+.header {
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.header__logo {
+    margin-top: 10vw;
+    margin-left:5vw;
+    width: 150px;
+    height: 100px;    
+    background-image: url(Wireframe-04/images/logo.png);        
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.header__hamburger {
+    font-size: 35px;
+    width: fit-content;
+    margin-top: 10vw;
+    margin-right:10vw;    
+}
+
+.header__navbox {display:none;}
+.header__navbox__child {display:none;}
+
+/* SECTION 1  */
+.section1 {
+   
+    height: 100%;    
+   background-color:#FBFBFB;
+   
+
+}
+/* section 1 top */
+
+ .section1__top {
+   height: 100px;
+   display:flex;
+   justify-content: space-between;
+   
+}
+
+.section1__top__imgleft{
+    background-image:url(Wireframe-04/images/banner/shape/shape-1.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    background-size: cover;
+    width: 50px;
+    background-position: bottom;
+}
+.section1__top__imgcenter{
+    background-image:url(Wireframe-04/images/banner/shape/shape-3.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 123px;
+    background-size: cover;
+    background-position: bottom;
+    
+  
+}
+.section1__top__imgright{
+    background-image:url(Wireframe-04/images/banner/shape/shape-2.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-right:13vw;
+    margin-top:3vh;
+}
+
+/* section1 mid */
+
+.section1__mid {
+    position:relative;
+    height:300px;
+}
+
+.section1__mid__text {
+    margin-left: 7vw;
+    margin-top:15px;
+    position:absolute; 
+
+   
+ }
+
+
+.section1__mid__imgbox {
+    position:absolute;
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    
+}
+
+.section1__mid__imgleft{
+    background-image:url(Wireframe-04/images/banner/shape/shape-4.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-left:17vw;
+    margin-bottom:100px;
+}
+.section1__mid__imgright{
+    background-image:url(Wireframe-04/images/banner/shape/shape-1.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-right:5vw;
+    margin-bottom:100px;
+}
+
+        .section1__mid__text h1 {
+            text-transform: uppercase;
+            font-size:25pt;
+            font-weight: 600;
+            color:#31343A;
+        }
+
+        .section1__mid__text h3 {
+            text-transform: uppercase;
+            color:#744ef9;
+            font-size: 18pt;
+            font-weight: 600;
+            
+        }
+           .section1__mid__text div {
+            color:#8a90a1;            }    
+
+/* section bottom */
+
+.section1__bottom {
+    height: 150px;
+}
+
+
+.section1__bottom__btn button {
+    background-color:#744ef9;
+    color:white;
+    margin-left: 7vw;
+    padding: 15px 30px;
+    border-radius: 40px;
+    margin-bottom:200px;
+  
+    
+}
+
+.section1__bottom__socials {
+    margin-left: 7vw;
+    font-size: 20pt;
+    color:grey;
+}
+
+/* SECTION 2 */
+.grey, .section2__intro p, .section2__text p, .section2__infos p  {
+    color:grey;
+}
+
+.section2 h4 {
+    font-weight: 500;
+}
+
+/* Section2 intro */
+
+.section2 {
+    /* margin-left: 20px;
+    margin-right: 20px;
+    padding-top:30px;
+    padding-bottom:35px; */
+    margin: 30px 20px 35px 20px;
+}    
+
+.section2__intro   {
+    text-align: center;
+}
+
+.section2__infos {
+    line-height: 25pt;
+}
+
+.left {
+    text-align: left;
+
+}
+.right {
+    text-align: right;
+}
+
+
+
+.range-container {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  
+  .skills {
+    text-align: right;    
+    color: white;
+    height:4px;
+    border-radius: 20px;
+    
+  }
+
+  .section2__bars p {
+      color:black;
+      
+  }
+.p-right {
+    text-align:right;
+    
+}
+
+
+  
+  .html {width: 80%; background-color: #744ef9;} 
+  .css {width: 60%; background-color: #744ef9;} 
+  .ps {width: 50%; background-color: #744ef9;}
+  .sketch {width: 90%; background-color: #744ef9;} 
+
+
+/* SECTION 3 */
+
+.section3 {
+    background-color:#FBFBFB;
+    padding: 30px 20px 35px 20px;
+    text-align: center;
+
+}
+
+.section3__cards h2 {
+    font-weight: 600;
+}
+
+.section3__cards {
+}
+
+.section3__cards__card1 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card2 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card3 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card4 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card5 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:15px;
+    margin-top:30px;
+}
+
+.section3__cards__card6 {
+    background-color:white;
+    border-radius: 10px;
+    border: solid #ECEFF8 1px;
+    padding:20px;
+    margin-top:30px;
+}
+
+
+
+.icon {
+ font-size: 50px;
+ color:#744ef9; 
+    
+}
+
+/* SECTION 4 */
+
+.section4 {
+    background-image: url(Wireframe-04/images/mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:fit-content;
+
+    text-align: center;
+    padding:55px 25px 55px 25px ;
+    
+}
+
+.section4 h1 {
+    font-size: 25pt;
+    color:#744ef9;
+    
+}
+
+.section4 button {
+    border-radius: 30px;
+    border:none;    
+    margin-top:10px;
+    font-weight: 500;
+}
+#CV {
+    background-color: white;
+    color:#744ef9 ;
+    padding:15px 20px;
+}
+
+#hire {
+    background-color: #744ef9;
+    color:white;
+    padding:15px 42px;
+}
+
+/* SECTION5 */
+
+.section5 {
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 55px;
+
+}
+.section5 p {
+    color: grey;
+   
+}
+
+.section5__pics {
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.section5__pics__pic1 {
+    background-image: url(Wireframe-04/images/pic1.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.section5__pics__pic2 {
+    background-image: url(Wireframe-04/images/pic2.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.section5__pics__pic3 {
+    background-image: url(Wireframe-04/images/pic3.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.section5__pics__pic4 {
+    background-image: url(Wireframe-04/images/pic4.png);
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.section5__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom:80px
+}
+
+.btn_purple{    
+    border-radius: 30px;
+    border:none;    background-color: #744ef9;
+    color:white;
+    padding:15px 42px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 15px 0px#744ef9 ;  
+    
+    
+}
+
+/* SECTION6 */
+
+.section6 {
+    background-color: #FBFBFB;
+    margin: 70px 20px 70px 20px;
+    padding-top:40px;
+    text-align: center;
+}
+
+.section6 p {
+    color: grey;
+}
+
+.section6__pricecontainer__title {
+    background-color: #744ef9;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    
+}
+
+.section6__pricecontainer__box2 {
+    border: solid #ddd 1px;
+    padding:10px;
+}
+
+.price {
+    color:#744ef9;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+} /* closing tag mobile  */
+/* Desktop version */
+
+@media screen and (min-width:600px){
+    body { 
+        
+        margin:0; 
+        padding:0; 
+        box-sizing:border-box;
+        font-family: 'Poppins', sans-serif;
+
+        }
+
+    /* ALL BUTTONS */
+button {
+    text-transform:uppercase;
+}
+
+/* HEADER */
+.header {
+    background-color:white ;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.header__logo {
+    margin-top: 100px;
+    margin-left:200px;
+    width: 150px;
+    height: 100px;    
+    background-image: url(Wireframe-04/images/logo.png);        
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.header__hamburger {
+    display:none; 
+}
+
+.header__navbox__child ul {
+    list-style-type: none;
+    margin: 100px 100px 0px 0px;
+    text-align: center;
+   
+}
+.header__navbox__child li {
+    display:inline-block;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    color:#8a90a1;
+    font-size: 10pt;
+    font-weight: 500;
+    
+}
+
+/* SECTION1*/
+.section1 {
+    display:none;
+    
+
+}
+.section1d {
+    width:100%;
+    display:flex;
+    background-color: #FBFBFB;
+    
+}
+
+.section1d__b1 {
+    width:17%;
+    
+}
+.section1d__b1__top{
+    height: 25vh;
+    
+}
+.section1d__b1__top__img{
+    background-image: url(Wireframe-04/images/banner/shape/shape-1.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: cover;
+    width: 60px;
+    background-position: bottom;
+}
+
+.section1d__b1__mid {
+    display:flex;
+    justify-content: end;
+    height: 7vw;
+
+}
+.section1d__b1__mid__img {
+    background-image: url(Wireframe-04/images/banner/shape/shape-4.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    background-size: cover;
+    width: 40px;
+     
+}
+.section1d__b1__bottom {
+    position: relative;
+    
+    
+
+}
+.section1d__b1__bottom__imgdiag {
+    background-image: url(Wireframe-04/images/banner/shape/shape-3.png);
+    background-repeat: no-repeat;
+    height: 170px;
+    background-size: contain;
+    width: 140px;
+    position: absolute;
+    margin-left:20px;
+    margin-top:5px;
+    
+}
+.section1d__b1__bottom__imgtriangle {
+    background-image: url(Wireframe-04/images/banner/shape/shape-5.png);
+    background-repeat: no-repeat;
+    height: 170px;
+    background-size: contain;
+    width: 140px;
+    position: absolute;
+    margin-left:0px;
+    margin-top:55px;
+    
+}
+.section1d__b1__bottom__imgline {
+    background-color:#744ef9;
+    height: 2px;
+    width:200px;
+    position:absolute;
+    margin-top:28vh;
+
+}
+
+.section1d__b2 {
+    width:38%;
+    
+    
+}
+
+.section1d__b2__top {
+    display: flex;
+    justify-content: space-between;
+}
+.section1d__b2__top__imgl {
+    background-image: url(Wireframe-04/images/banner/shape/shape-2.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    background-size: cover;
+    width: 70px;
+    background-position: bottom;
+    margin-left:15px;
+    
+
+}
+.section1d__b2__top__imgr {
+    background-image: url(Wireframe-04/images/banner/shape/shape-3.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: cover;
+    width: 150px;
+    background-position: bottom;
+    margin-right: 10px;  
+    
+}
+
+.section1d__b2__btn button {
+    border-radius: 30px;
+    border:none;    background-color: #744ef9;
+    color:white;
+    padding:15px 42px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 15px 0px#744ef9 ;
+    
+}
+.section1d__b2__btn button:hover {
+    background-color: #241364;
+}
+
+
+
+
+
+        .section1d__b2 h1 {
+            text-transform: uppercase;
+            font-size:25pt;
+            font-weight: 600;
+            color:#31343A;
+        }
+
+        .section1d__b2 h3 {
+            text-transform: uppercase;
+            color:#744ef9;
+            font-size: 18pt;
+            font-weight: 600;
+            
+        }
+        .section1d__b2 div {
+            color:#8a90a1;            } 
+
+
+
+
+.section1d__b3 {
+    width:30%;
+    background-image: url(Wireframe-04/images/mark.png);
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.section1d__b4 {
+    width:15%;
+
+    
+}
+
+
+} /* closing tag desktop media q */
